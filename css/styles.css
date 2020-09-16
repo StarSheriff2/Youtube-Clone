@@ -3,7 +3,11 @@
    padding: 0;
    box-sizing: border-box;
    font-size: 1rem;
- }
+  }
+
+  body {
+    background-color: #f1f1f1;
+  }
 
  .flex-horizontal {
    display: flex;
@@ -43,7 +47,7 @@
  }
 
  .sign-in-btn {
-   background-color: blue;
+   background-color: #167ac6;
    padding: 10px;
    color: white;
    border: 1px solid;
@@ -144,6 +148,8 @@
   width: 1280px;
   position: relative;
   padding: 0 20px;
+  background: white;
+  margin-top: 15px;
 }
 
 .video-channel {
@@ -161,18 +167,30 @@
 .subscribe-div {
   padding-left: 10px;
 }
-.subscribe-icon {
-  padding-top: 5px;
+.subscribe-icon-div {
+  margin-top: 5px;
+  border: 1px solid gray;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #ff0000;
 }
 
-.subscribe-icon img {
-  height: 15px;
+.subscribe-icon-div img {
+  height: 20px;
   width: auto;
+  border: none;
+}
+.sub-span {
+  background: #ff0000;
+  color: white;
+  border: none;
 }
 
-.subscribe-icon span {
-  border: 1px solid black;
+.num-span {
+  background-color: white;
 }
+
 
 .views {
   position: absolute;
@@ -202,7 +220,65 @@
   padding-right: 10px;
 }
 
-/* Vidoe Thumbnails */
+
+/* VIDEO DESCRIPTION SECTION*/
+
+#video-description {
+  width: 1280px;
+  padding: 20px;
+  background-color: white;
+  margin-top: 15px;
+}
+
+#video-description h3 {
+  padding: 15px 0;
+}
+
+#video-description p {
+  text-align: justify;
+}
+
+.show-more {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-top: 1px solid gray; 
+}
+
+
+
+/* VIDEOS COMMENTS SECTIONS*/
+
+#video-comments {
+  width: 1280px;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  padding: 20px;
+}
+
+#video-comments div {
+  display: flex;
+  align-items: center;
+}
+
+
+#video-comments div img {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+/* Video Thumbnails */
 
 
 
