@@ -127,3 +127,63 @@
     right: 40px;
 }
 
+
+/* MAIN SECTIONS */
+
+
+/* TITLE AND SUBSCRIPTION BUTTON */
+
+#video-title {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  position: relative;
+
+}
+
+.video-channel {
+  display: flex;
+
+}
+
+.channel-btn {
+  height: 50px;
+  width: 60px;
+  background-color: #659c3e;
+  color: white;
+}
+
+.subscribe-icon img {
+  height: 15px;
+  width: auto;
+}
+
+.subscribe-icon span {
+  border: 1px solid black;
+}
+
+.views {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+#video-title footer {
+  position: relative;
+}
+
+.title-icons {
+  height: 15px;
+  width: auto;
+}
+
+.like-btns {
+  height: 15px;
+  width: auto;
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  background-color: blue;
+}
+
+
