@@ -5,12 +5,17 @@
    font-size: 1rem;
  }
 
+ .flex-horizontal {
+   display: flex;
+   align-items: center;
+ }
+
 .menu-icon {
    width: 20px;
    height: 30px;
  }
 
- .search-fig {
+ .search-btn {
    height: 50px;
    width: 50px;
    border: 1px solid black;
@@ -138,19 +143,26 @@
   flex-direction: column;
   width: 1280px;
   position: relative;
-
+  padding: 0 20px;
 }
 
 .video-channel {
   display: flex;
-
+  padding: 20px 0;
 }
 
 .channel-btn {
   height: 50px;
-  width: 60px;
+  width: 50px;
   background-color: #659c3e;
   color: white;
+}
+
+.subscribe-div {
+  padding-left: 10px;
+}
+.subscribe-icon {
+  padding-top: 5px;
 }
 
 .subscribe-icon img {
@@ -165,25 +177,33 @@
 .views {
   position: absolute;
   right: 20px;
-  bottom: 20px;
+  bottom: 65px;
 }
 
 #video-title footer {
   position: relative;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-top: solid grey 1px;
+}
+
+.title-btns span {
+  padding-right: 20px;
+  padding-left: 10px;
 }
 
 .title-icons {
-  height: 15px;
+  height: 25px;
   width: auto;
 }
 
-.like-btns {
-  height: 15px;
-  width: auto;
-  position: absolute;
-  right: 20px;
-  bottom: 0;
-  background-color: blue;
+.like-btns span {
+  padding-left: 20px;
+  padding-right: 10px;
 }
+
+/* Vidoe Thumbnails */
+
+
 
 
