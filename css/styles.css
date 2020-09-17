@@ -279,6 +279,7 @@
 aside {
   float: right;
   width: 30%;
+  background-color: white;
 }
 
 .thumbnail-controls {
@@ -296,5 +297,42 @@ aside {
   padding-left: 15px;
 }
 
+.thumbnail-div {
+  display: flex;
+  padding: 15px 0 15px 30px;
+}
+
+.first-div {
+  border-bottom: 1px solid gray;
+}
+
+.thumbnail-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* FOOTER*/
 
 
+#channel-footer {
+  display: flex;
+  flex-direction: column;
+   width: 100%;
+}
+
+
+
+.footer-btns {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.footer-icon-img {
+  height: 20px;
+  width: auto;
+  padding-right: 10px;
+}
