@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Youtube Clone
 
 > This is our first project for Microverse course. We cloned the  appearance of Youtube interface video display using HTML and CSS.
 
-![screenshot](./app_screenshot.png)
+![screenshot](/images/project-preview.png)
 
 Additional description about the project and its features.
 
