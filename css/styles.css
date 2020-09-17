@@ -280,6 +280,7 @@ aside {
   float: right;
   width: 30%;
   background-color: white;
+  margin-bottom: 20px;
 }
 
 .thumbnail-controls {
@@ -319,10 +320,19 @@ aside {
 #channel-footer {
   display: flex;
   flex-direction: column;
-   width: 100%;
+  width: 100%;
+  padding: 20px 100px;
+  background-color: white;
+  margin-top: 20px;
 }
 
+.footer-header {
+  border-bottom: solid lightgrey 1px;
+}
 
+.padding-footer-divs {
+  padding: 10px 0;
+}
 
 .footer-btns {
   display: flex;
@@ -336,3 +346,19 @@ aside {
   width: auto;
   padding-right: 10px;
 }
+
+.footer-links a, .footer-help a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.footer-links a {
+  color: black;
+}
+
+.footer-help a {
+  color: grey;
+}
+
+
