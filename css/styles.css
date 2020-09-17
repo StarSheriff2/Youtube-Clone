@@ -3,6 +3,7 @@
    padding: 0;
    box-sizing: border-box;
    font-size: 1rem;
+   font-family: 'Roboto', sans-serif;
   }
 
   body {
@@ -12,6 +13,12 @@
   main {
     width: 70%;
   }
+
+  header {
+    margin-bottom: 20px;
+  }
+
+
 
  .flex-horizontal {
    display: flex;
@@ -25,7 +32,7 @@
 
  .search-btn {
    height: 50px;
-   width: 50px;
+   width: 100px;
    border: 1px solid black;
  }
 
@@ -37,6 +44,7 @@
 .upload-icon {
   height: 30px;
   width: 30px;
+  margin-right: 20px;
 }
 
  .logo {
@@ -56,18 +64,22 @@
    color: white;
    border: 1px solid;
    border-radius: 10%;
+   margin-left: 20px;
  }
+
 
  #search-bar {
    width: 1000px;
    height: 50px;
+   padding-left: 10px;
  }
 
 #nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 15px;
+  padding: 15px;
+  background-color: white;
 }
 
 #logo-div, #upload-div, #search-div {
@@ -90,6 +102,7 @@
     display: flex;
     flex-direction: column;
     border: solid 2px #167ac6;
+    margin-top: 20px;
 }
 
 .top-div {
@@ -148,7 +161,7 @@
 #video-title {
   display: flex;
   flex-direction: column;
-  width: 1280px;
+  width: 98%;
   position: relative;
   padding: 0 20px;
   background: white;
@@ -161,8 +174,8 @@
 }
 
 .channel-btn {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   background-color: #659c3e;
   color: white;
 }
@@ -183,15 +196,18 @@
   height: 20px;
   width: auto;
   border: none;
+  padding: 0 5px;
 }
 .sub-span {
   background: #ff0000;
   color: white;
   border: none;
+  padding: 5px 10px;
 }
 
 .num-span {
   background-color: white;
+  padding: 5px 10px;
 }
 
 
@@ -199,6 +215,12 @@
   position: absolute;
   right: 20px;
   bottom: 65px;
+  font-size: 1.5rem;
+}
+
+#video-title h1 {
+  padding-top: 20px;
+  font-size: 1.5rem;
 }
 
 #video-title footer {
@@ -219,15 +241,19 @@
 }
 
 .like-btns span {
-  padding-left: 20px;
+  padding-left: 5px;
   padding-right: 10px;
+}
+
+.like-num {
+  margin-right: 10px;
 }
 
 
 /* VIDEO DESCRIPTION SECTION*/
 
 #video-description {
-  width: 1280px;
+  width: 98%;
   padding: 20px;
   background-color: white;
   margin-top: 15px;
@@ -252,7 +278,7 @@
 /* VIDEOS COMMENTS SECTIONS*/
 
 #video-comments {
-  width: 1280px;
+  width: 98%;
   height: 120px;
   background-color: white;
   display: flex;
