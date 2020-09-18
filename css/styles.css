@@ -1,0 +1,374 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+main {
+  width: 70%;
+}
+
+/* Global Settings */
+
+.margin-right {
+  margin-right: 20px;
+}
+
+.flex-horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.font-medium {
+  font-size: 1.25rem;
+}
+
+.background-divs {
+  background-color: white;
+}
+
+.white-font {
+  color: white
+}
+
+/* HEADER */
+
+header {
+  margin-bottom: 20px;
+}
+
+.menu-icon {
+  width: 20px;
+  height: 30px;
+}
+
+.search-btn {
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.search-icon {
+  width: 25px;
+  height: auto;
+}
+
+.upload-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.menu-icon {
+  height: 30px;
+  width: 30px;
+  margin: 0 20px;
+}
+
+.header-btns {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10%;
+  margin-left: 20px;
+}
+
+.log-in-btn {
+  background-color: #167ac6;
+}
+
+.search-bar {
+  width: 40vw;
+  height: 50px;
+  padding-left: 10px;
+  margin: 0 0 0 20px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.upload-div {
+  margin-right: 100px;
+}
+
+.logo-div {
+  margin-left: 100px;
+}
+
+/* Language Section */
+
+.lang-selection {
+  background-color: #167ac6;
+  border: solid 2px #167ac6;
+  margin-top: 20px;
+}
+
+.top-div, .bottom-div  {
+  padding: 15px;
+}
+
+.blue-text {
+  color: #167ac6;
+}
+
+.lang-icon {
+  height: 30px;
+  width: auto;
+}
+
+.lang-text {
+  margin-left: 15px;
+  font-size: 1.25rem;
+}
+
+.close-icon {
+  height: 15px;
+  width: auto;
+  position: absolute;
+  right: 35px;
+}
+
+.learn-more {
+  position: absolute;
+  right: 40px;
+}
+
+/* MAIN SECTIONS */
+
+/* TITLE AND SUBSCRIPTION BUTTON */
+
+.video {
+  margin-left: 20px;
+}
+
+.video iframe {
+  width: 100%;
+  height: 76vh;
+  min-height: 650px;
+}
+
+.video-title {
+  width: 98%;
+  position: relative;
+  padding: 0 20px;
+  background: white;
+  margin-top: 15px;
+}
+
+.video-channel {
+  display: flex;
+  padding: 20px 0;
+}
+
+.channel-btn {
+  height: 60px;
+  width: 60px;
+  background-color: #659c3e;
+}
+
+.subscribe-div {
+  padding-left: 10px;
+}
+
+.subscribe-icon-div {
+  margin-top: 5px;
+  border: 1px solid gray;
+  height: 30px;
+  background-color: #ff0000;
+}
+
+.subscribe-icon-div img {
+  height: 20px;
+  width: auto;
+  border: none;
+  padding: 0 5px;
+}
+
+.sub-span {
+  background: #ff0000;
+  border: none;
+  padding: 5px 10px;
+}
+
+.num-span {
+  padding: 5px 10px;
+}
+
+.views {
+  position: absolute;
+  right: 20px;
+  bottom: 65px;
+  font-size: 1.5rem;
+}
+
+.video-title h1 {
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+.video-title footer {
+  position: relative;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-top: solid grey 1px;
+}
+
+.title-btns span {
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.title-icons {
+  height: 25px;
+  width: auto;
+}
+
+.like-btns span {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.like-num {
+  margin-right: 10px;
+}
+
+/* VIDEO DESCRIPTION SECTION*/
+
+.video-description {
+  width: 98%;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.video-description h3 {
+  padding: 15px 0;
+}
+
+.video-description p {
+  text-align: justify;
+}
+
+.show-more {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 10px 0;
+  border-top: 1px solid gray; 
+}
+
+/* VIDEOS COMMENTS SECTIONS*/
+
+.video-comments {
+  width: 98%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  padding: 20px;
+}
+
+.video-comments div img {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Video Thumbnails */
+
+aside {
+  float: right;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.thumbnail-controls {
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.thumbnail-controls p {
+  font-size: 1.25rem;
+}
+
+.info-btn, .thumbnail-btn{
+  height: 20px;
+  width: auto;
+  padding-left: 15px;
+}
+
+.thumbnail-div {
+  display: flex;
+  padding: 15px 0 15px 30px;
+}
+
+.first-div {
+  border-bottom: 1px solid gray;
+}
+
+.thumbnail-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* FOOTER*/
+
+.channel-footer {
+  width: 100%;
+  padding: 20px 100px;
+  margin-top: 20px;
+}
+
+.footer-header {
+  border-bottom: solid lightgrey 1px;
+}
+
+.padding-footer-divs {
+  padding: 10px 0;
+}
+
+.footer-btns {
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.footer-icon-img {
+  height: 20px;
+  width: auto;
+  padding-right: 10px;
+}
+
+.footer-links a,
+.footer-help a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.footer-links a {
+  color: black;
+}
+
+.footer-help a {
+  color: grey;
+}
