@@ -11,35 +11,35 @@
 
 <body>
   <header>
-    <nav class="nav-bar">
-      <div class="logo-div">
+    <nav class="nav-bar background-divs">
+      <div class="logo-div flex-horizontal">
         <img class="menu-icon" src="images/open-menu.png" alt="menu icon">
         <img class="logo" src="images/youtube-logo.png" alt="youtube logo">
       </div>
-      <div class="search-div">
+      <div class="search-div flex-horizontal">
         <input type="search" placeholder="Search" class="search-bar">
         <button class="search-btn"><img class="search-icon" src="images/search.png" alt="search-icon"></button>
 
       </div>
-      <div class="upload-div">
+      <div class="upload-div flex-horizontal">
         <img class="upload-icon margin-right" src="images/upload.png" alt="upload-button">
-        <button class="sign-in-btn">Sign In</button>
+        <button class="sign-in-btn white-font">Sign In</button>
       </div>
     </nav>
-    <section class="lang-selection">
-      <div class="top-div">
+    <section class="lang-selection flex-vertical">
+      <div class="top-div flex-horizontal">
         <img class="lang-icon" alt="language icon" src="images/question.png">
-        <h3 class="lang-text">Choose you language.</h3>
+        <h3 class="lang-text white-font">Choose you language.</h3>
         <img class="close-icon" alt="close icon" src="images/close.png">
       </div>
-      <div class="bottom-div">
-        <p class="font-medium">You're viewing YouTube in <strong>English (US)</strong>. You can <strong class="blue-text">change this
+      <div class="bottom-div flex-horizontal background-divs">
+        <p class="font-medium">You're viewing YouTube in <strong>English (US)</strong>. You can <strong class="blue-text font-medium">change this
             preference below</strong>.</p>
         <button class="learn-more">Learn more</button>
       </div>
     </section>
   </header>
-  <aside>
+  <aside class="background-divs">
     <div class="thumbnail-controls flex-horizontal">
       <p class="up-next">Up next</p>
 
@@ -133,22 +133,22 @@
 
   </aside>
   <main>
-    <section class="video">
+    <section class="video margin-right">
       <iframe width="1280" height="720" src="https://www.youtube.com/embed/3PHXvlpOkf4"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </section>
 
-    <section class="video-title">
+    <section class="video-title flex-vertical">
       <h1>Build 15 JavaScript Projects - Vanilla JavaScript Course</h1>
       <div class="video-channel">
-        <button class="channel-btn">T</button>
+        <button class="channel-btn white-font">T</button>
         <div class="subscribe-div">
           <h4>The Odin Project</h4>
-          <div class="subscribe-icon-div">
+          <div class="subscribe-icon-div flex-horizontal">
             <img src="images/play-button.png" alt="subscribe icon">
-            <span class="sub-span">Subscribe</span>
-            <span class="num-span">799</span>
+            <span class="sub-span white-font">Subscribe</span>
+            <span class="num-span background-divs">799</span>
           </div>
         </div>
         <p class="views">50,016 Views</p>
@@ -166,7 +166,7 @@
       </footer>
     </section>
 
-    <section class="video-description">
+    <section class="video-description background-divs">
       <h3>Published on Feb 27, 2014</h3>
       <p>
         How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution
@@ -182,23 +182,23 @@
 
     </section>
 
-    <section class="video-comments">
-      <div>
+    <section class="video-comments background-divs">
+      <div class=" flex-horizontal">
         <img src="images/loading.png" alt="loading icon"><span>Loading...</span>
       </div>
     </section>
   </main>
 
-  <footer class="channel-footer">
+  <footer class="channel-footer flex-vertical background-divs">
     <div class="footer-header flex-horizontal padding-footer-divs">
       <img class="logo" src="images/youtube-logo.png" alt="youtube logo">
-      <button class="footer-btns"><img class="footer-icon-img" src="images/question.png"
+      <button class=" footer-btns flex-horizontal"><img class="footer-icon-img" src="images/question.png"
           alt="profile icon">Language:&nbsp; <strong> English</strong></button>
-      <button class="footer-btns">Language:&nbsp; <strong>Netherlands</strong></button>
-      <button class="footer-btns">Restrict Mode:&nbsp;<strong> Off</strong></button>
-      <button class="footer-btns"><img class="footer-icon-img" src="images/hourglass.png"
+      <button class=" footer-btns flex-horizontal">Language:&nbsp; <strong>Netherlands</strong></button>
+      <button class=" footer-btns flex-horizontal">Restrict Mode:&nbsp;<strong> Off</strong></button>
+      <button class=" footer-btns flex-horizontal"><img class="footer-icon-img" src="images/hourglass.png"
           alt="hourglass icon"><strong>History</strong></button>
-      <button class="footer-btns"><img class="footer-icon-img" src="images/question-mark-in-dark-circle.png"
+      <button class=" footer-btns flex-horizontal"><img class="footer-icon-img" src="images/question-mark-in-dark-circle.png"
           alt="question mark icon"><strong>Help</strong></button>
     </div>
 

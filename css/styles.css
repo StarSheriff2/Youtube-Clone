@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 main {
@@ -25,9 +25,24 @@ main {
   align-items: center;
 }
 
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
 .font-medium {
   font-size: 1.25rem;
 }
+
+.background-divs {
+  background-color: white;
+}
+
+.white-font {
+  color: white
+}
+
+/* HEADER */
 
 header {
   margin-bottom: 20px;
@@ -52,7 +67,6 @@ header {
 .upload-icon {
   height: 30px;
   width: 30px;
-  margin-right: 20px;
 }
 
 .logo {
@@ -69,7 +83,6 @@ header {
 .sign-in-btn {
   background-color: #167ac6;
   padding: 10px;
-  color: white;
   border: 1px solid;
   border-radius: 10%;
   margin-left: 20px;
@@ -87,12 +100,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background-color: white;
-}
-
-.logo-div, .upload-div, .search-div {
-  display: flex;
-  align-items: center;
 }
 
 .upload-div {
@@ -107,31 +114,12 @@ header {
 
 .lang-selection {
   background-color: #167ac6;
-  display: flex;
-  flex-direction: column;
   border: solid 2px #167ac6;
   margin-top: 20px;
 }
 
-.top-div {
-  display: flex;
-  align-items: center;
+.top-div, .bottom-div  {
   padding: 15px;
-}
-
-.bottom-div {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  padding: 15px;
-}
-
-.bottom-div p {
-  font-size: 1.25rem;
-}
-
-.bottom-div p strong {
-  font-size: 1.25rem;
 }
 
 .blue-text {
@@ -145,7 +133,6 @@ header {
 
 .lang-text {
   margin-left: 15px;
-  color: white;
   font-size: 1.25rem;
 }
 
@@ -161,26 +148,17 @@ header {
   right: 40px;
 }
 
-
 /* MAIN SECTIONS */
-
 
 /* TITLE AND SUBSCRIPTION BUTTON */
 
-.video {
-  margin-right: 20px;
-}
-
 .video iframe {
-  
   width: 100%;
   height: 76vh;
   min-height: 650px;
 }
 
 .video-title {
-  display: flex;
-  flex-direction: column;
   width: 98%;
   position: relative;
   padding: 0 20px;
@@ -197,7 +175,6 @@ header {
   height: 60px;
   width: 60px;
   background-color: #659c3e;
-  color: white;
 }
 
 .subscribe-div {
@@ -208,8 +185,6 @@ header {
   margin-top: 5px;
   border: 1px solid gray;
   height: 30px;
-  display: flex;
-  align-items: center;
   background-color: #ff0000;
 }
 
@@ -222,13 +197,11 @@ header {
 
 .sub-span {
   background: #ff0000;
-  color: white;
   border: none;
   padding: 5px 10px;
 }
 
 .num-span {
-  background-color: white;
   padding: 5px 10px;
 }
 
@@ -270,13 +243,11 @@ header {
   margin-right: 10px;
 }
 
-
 /* VIDEO DESCRIPTION SECTION*/
 
 .video-description {
   width: 98%;
   padding: 20px;
-  background-color: white;
   margin-top: 15px;
 }
 
@@ -301,19 +272,12 @@ header {
 .video-comments {
   width: 98%;
   height: 120px;
-  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 15px;
   padding: 20px;
 }
-
-.video-comments div {
-  display: flex;
-  align-items: center;
-}
-
 
 .video-comments div img {
   width: 25px;
@@ -326,7 +290,6 @@ header {
 aside {
   float: right;
   width: 30%;
-  background-color: white;
   margin-bottom: 20px;
 }
 
@@ -363,13 +326,9 @@ aside {
 
 /* FOOTER*/
 
-
 .channel-footer {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   padding: 20px 100px;
-  background-color: white;
   margin-top: 20px;
 }
 
@@ -382,8 +341,6 @@ aside {
 }
 
 .footer-btns {
-  display: flex;
-  align-items: center;
   padding: 5px;
   margin: 0 10px;
 }
