@@ -6,7 +6,7 @@
 
 ![screenshot](/images/project-preview.png)
 
-This is a Youtube page clone created with HTML and CSS only. The purpose of this project was to clone the frontend and styling of the Youtube player page. We applied semantic elements to properly markup the different sections of the page and used different CSS property to mimic the original page as close as possible. It is not supposed to be functional.
+This is a Youtube page clone created with HTML and CSS only. The purpose of this project was to clone the frontend and styling of the Youtube player page from 2014, as seen in this link http://archive.vn/Bss88. We applied semantic elements to properly markup the different sections of the page and used different CSS property to mimic the original page as close as possible. It is not supposed to be functional.
 
 ## Built With
 
