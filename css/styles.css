@@ -80,12 +80,15 @@ header {
   margin: 0 20px;
 }
 
-.sign-in-btn {
-  background-color: #167ac6;
+.header-btns {
   padding: 10px;
   border: 1px solid;
   border-radius: 10%;
   margin-left: 20px;
+}
+
+.log-in-btn {
+  background-color: #167ac6;
 }
 
 .search-bar {
@@ -351,7 +354,8 @@ aside {
   padding-right: 10px;
 }
 
-.footer-links a, .footer-help a {
+.footer-links a,
+.footer-help a {
   text-decoration: none;
   font-weight: bold;
   margin-right: 15px;
