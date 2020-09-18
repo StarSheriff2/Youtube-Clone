@@ -18,12 +18,12 @@ This is a Youtube page clone created with HTML and CSS only. The purpose of this
 
 ## Authors
 
-👤 **Author1**
+👤 **Arturo Alvarez**
 
 - GitHub: [@githubhandle](https://github.com/StarSherif12)
 
 
-👤 **Author2**
+👤 **Thales Neves**
 
 - GitHub: [@githubhandle](https://github.com/thneves)
 
