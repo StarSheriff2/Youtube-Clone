@@ -155,6 +155,10 @@ header {
 
 /* TITLE AND SUBSCRIPTION BUTTON */
 
+.video {
+  margin-left: 20px;
+}
+
 .video iframe {
   width: 100%;
   height: 76vh;
